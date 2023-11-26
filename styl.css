@@ -1,0 +1,68 @@
+body{
+    background-image: linear-gradient(#0d1b2a, #778da9);
+}
+
+button{
+                    display: inline-block;
+                    outline: 0;
+                    cursor: pointer;
+                    text-align: center;
+                    border: 1px solid #babfc3;
+                    padding: 11px 24px;
+                    min-height: 2%;
+                    min-width: 2%;
+                    color: #202223;
+                    background: #e0e1dd;
+                    border-radius: 4px;
+                    font-weight: 500;
+                    font-size: 14px;
+                    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px;}
+                    button:hover {
+                        background: #415a77;
+                        outline: 1px solid transparent;
+                    }
+                
+#nazwa{
+    font-family:"Lucida Console", "Courier New", monospace;
+    text-align: center;
+    font-size: 60;
+    height: 5%;
+}
+
+
+#menu{
+    width: 100%; 
+    height: 5%;  
+    display: flex;
+  gap: 20%;
+  justify-content: center;
+}
+#ksiega{
+    display: flex;
+    gap: 20%;
+  
+    justify-content: center;
+}
+#wyszukiwarka{
+    display: flex;
+    gap: 20%;
+  
+    justify-content: center;
+}
+#wprowadzanie{
+    display: flex;
+    gap: 20%;
+  
+    justify-content: center;
+}
+img{
+    width:200px;
+    height:200px;
+    margin-right: 10px;
+}
+header{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
