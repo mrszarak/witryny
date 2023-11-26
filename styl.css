@@ -1,5 +1,6 @@
 body{
     background-image: linear-gradient(#0d1b2a, #778da9);
+
 }
 
 button{
@@ -65,4 +66,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+}
+h2{
+    color: white;
 }
