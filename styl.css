@@ -28,8 +28,8 @@ button{
     text-align: center;
     font-size: 60;
     height: 5%;
+   color:white;
 }
-
 
 #menu{
     width: 100%; 
@@ -66,7 +66,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
 }
 h2{
     color: white;

@@ -13,7 +13,7 @@
      $drukowanie= mysqli_query($con, $kw);
      while($row = mysqli_fetch_row($drukowanie))
      {
-        echo "<h2>{$row[0]} . {$row[1]} {$row[2]} data zameldowania {$row[3]} data wymeldowania {$row[4]} nr pokoju:{$row[5]} </h2><br>  ";
+        echo " <h2> {$row[0]} . {$row[1]} {$row[2]} data zameldowania {$row[3]} data wymeldowania {$row[4]} nr pokoju:{$row[5]} </h2><br>  ";
      }
  
         ?>
